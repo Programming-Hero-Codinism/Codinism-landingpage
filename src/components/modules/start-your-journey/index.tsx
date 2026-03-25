@@ -13,9 +13,9 @@ export default function StartYourJourney() {
   return (
     <div>
       <Banner2
-        title_one="Hire your dream"
-        title_two="developer now"
-        description="Get world-class of the top of remote software developers to accelerate your development mission"
+        title_one="Hire Your Dream"
+        title_two="Developer Now"
+        description="Get World-class Of The Top of Remote Software Developers To Accelerate Your Development Mission"
         hideCTABtns={true}
         className="h-[70vh]"
       />
