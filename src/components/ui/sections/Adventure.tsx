@@ -3,15 +3,15 @@ import Image from "next/image";
 
 const adventureLogo = [
   // { logo: "/icon/collabs/accenture.svg" },
-  { logo: "/icon/collabs/Edulavo.png" },
+  { logo: "/logos/Edulavo.png" },
   // { logo: "/icon/collabs/adobe.png" },
   // { logo: "/icon/collabs/microsoft.webp" },
-  { logo: "/icon/collabs/Programming Hero.png" },
-  { logo: "/icon/collabs/Zenyora.png" },
-  // { logo: "/icon/collabs/carrefour.svg" }, 
+  { logo: "/logos/ProgrammingHero.png" },
+  { logo: "/logos/Phitron.png" },
+  // { logo: "/icon/collabs/carrefour.svg" },
   // { logo: "/icon/collabs/chase.png" },
-  { logo: "/icon/collabs/Phitron.png" }
-  
+  { logo: "/logos/Zenyora.png" },
+
   // { logo: "/icon/collabs/shopify.png" },
   // { logo: "/icon/collabs/target.png" },
   // { logo: "/icon/collabs/tesco.png" },
