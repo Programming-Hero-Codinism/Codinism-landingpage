@@ -7,11 +7,11 @@ export default function GenyoraSection() {
       {/* MAIN HERO SECTION */}
       <section className="relative w-full py-24 flex flex-col items-center justify-center text-white z-[1] bg-black ">
         {/* ✅ Main image wrapper (keeps the layout responsive & centered) */}
-        <div className="relative rounded-3xl border-8 border-secondary p-2 shadow-[0_0_30px_rgba(0,122,255,0.3)] bg-gradient-to-b from-[#c8f1d3] to-white w-[80%] max-w-5xl overflow-hidden">
+        <div className="relative rounded-3xl shadow-[0_0_30px_rgba(0,122,255,0.3)] bg-gradient-to-b from-[#c8f1d3] to-white w-[1000%] max-w-5xl overflow-hidden">
           <Image
-            src="/layer/zenoyra.png"
-            alt="Genyora UI"
-            width={1920}
+            src="/layer/Edulavo.png"
+            alt="Edulavo UI"
+            width={1980}
             height={1080}
             className="rounded-2xl"
           />
@@ -23,8 +23,8 @@ export default function GenyoraSection() {
           <div className="absolute w-full flex justify-center">
             <p className="text-center text-xl mt-6 leading-relaxed md:text-2xl">
               With codinism,{" "}
-              <a href="https://www.zenyora.com/" target="_blank">
-                Zenyora
+              <a href="https://www.edulavo.com" target="_blank">
+                Edulavo
               </a>{" "}
               <br /> just brought to life
             </p>
@@ -36,7 +36,7 @@ export default function GenyoraSection() {
             style={{ maskImage: "linear-gradient(to bottom, rgba(0,0,0,1), transparent)" }}
           >
             <Image
-              src="/layer/zenoyra.png"
+              src="/layer/Edulavo.png"
               alt="Reflection"
               width={1920}
               height={1080}

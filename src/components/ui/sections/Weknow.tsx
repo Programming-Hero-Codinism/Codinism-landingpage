@@ -1,9 +1,9 @@
 "use client";
 import { SectionTitle } from "@/components/custom";
+import { useContactForm } from "@/stores/useContactForm";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 import { Button } from "../button";
-import { useContactForm } from "@/stores/useContactForm";
 
 /**
  * Data list for card content
