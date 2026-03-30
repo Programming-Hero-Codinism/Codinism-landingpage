@@ -1,7 +1,7 @@
 import { ArrowUpRight, BadgeCheck, CalendarDays, Globe } from "lucide-react";
 import Image from "next/image";
-import { Button } from "../button";
 import Link from "next/link";
+import { Button } from "../button";
 
 const features = [
   {
@@ -26,7 +26,7 @@ export default function Contribution() {
   return (
     <section id="staff-aug" className="bg-[#000102] py-8 px-4 mt-16 text-white">
       <h1 className="text-center text-4xl sm:text-5xl md:text-6xl lg:text-[64px]  leading-tight">
-        How We Contributed To <br /> Build A Dream Team
+        When teams work with us
       </h1>
 
       <div className="grid gap-6 md:grid-cols-3  mx-auto mt-12">

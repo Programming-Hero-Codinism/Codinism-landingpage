@@ -1,7 +1,7 @@
 import { SectionTitle } from "@/components/custom";
+import { cn } from "@/lib/utils";
 import { ArrowUpRight } from "lucide-react";
 import { Button } from "../button";
-import { cn } from "@/lib/utils";
 
 /**
  * Banner (Hero Section)
@@ -66,8 +66,8 @@ export default function Banner({
             text-white
           "
         >
-          {title_one ?? " From Idea To "}
-          <br /> {title_two ?? "Reality Fast With AI."}
+          {title_one ?? " Helping companies scale  "}
+          <br /> {title_two ?? "engineering without increasing headcount."}
         </SectionTitle>
 
         {/* Subtitle / Description */}
