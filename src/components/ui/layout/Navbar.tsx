@@ -15,7 +15,7 @@ import { Button } from "../button";
 // Navigation menu items
 const menu = [
   // { path: "#service", label: "Service" },
-  { path: "/start-your-journey", label: "Hire AI First Engineer" },
+  { path: "/start-your-journey", label: "Start Working With Us" },
   { path: "#faq", label: "Why Codinism" },
   // { path: "/about", label: "About" },
   { path: "#contact", label: "Contact" },

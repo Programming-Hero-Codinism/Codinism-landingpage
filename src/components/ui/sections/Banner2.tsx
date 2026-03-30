@@ -1,10 +1,10 @@
 "use client";
 import { SectionTitle } from "@/components/custom";
+import AngleLight from "@/components/custom/AngleLight";
+import { SendMessageForm } from "@/components/forms/SendMessageForm";
 import { ArrowUpRight } from "lucide-react";
 import BinaryBackground from "../BinaryBackground";
 import { Button } from "../button";
-import AngleLight from "@/components/custom/AngleLight";
-import { SendMessageForm } from "@/components/forms/SendMessageForm";
 
 import { useContactForm } from "@/stores/useContactForm";
 
@@ -41,6 +41,7 @@ const Banner2 = ({ title_one, title_two, description, hideCTABtns, className }: 
           size="2xl"
           variant="centered"
           className="
+            text-balance
             leading-tight
             text-4xl
             sm:text-5xl
@@ -52,8 +53,8 @@ const Banner2 = ({ title_one, title_two, description, hideCTABtns, className }: 
             text-white
           "
         >
-          {title_one ?? " From Idea To "}
-          <br /> {title_two ?? "Reality Fast With AI."}
+          <span className="block">{title_one ?? "Helping companies scale"}</span>
+          <span className="block">{title_two ?? "engineering without increasing headcount."}</span>
         </SectionTitle>
 
         {/* Subtitle */}
@@ -70,7 +71,7 @@ const Banner2 = ({ title_one, title_two, description, hideCTABtns, className }: 
           "
         >
           {description ??
-            "We don't just write code — we become your product partner, shaping your vision into a real, scalable solution. Every project we take on is crafted with care, precision, and pride, so your success is our shared mission."}
+            "We help startups and growing teams extend their engineering capacity. Ship faster without long hiring cycles or added overhead."}
         </p>
 
         {/* Buttons */}

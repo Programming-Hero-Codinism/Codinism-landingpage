@@ -60,7 +60,7 @@ export default function WeKnow() {
     <section className="mt-16" id="services">
       {/* ---------------------------- SECTION TITLE ---------------------------- */}
       <SectionTitle size="2xl" className="text-center text-white">
-        Trails We Know Well
+        Our Expertise
       </SectionTitle>
 
       {/* ---------------------------- CARD WRAPPER ---------------------------- */}
