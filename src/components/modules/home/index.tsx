@@ -1,5 +1,6 @@
 import Adventure from "@/components/ui/sections/Adventure";
 import Banner2 from "@/components/ui/sections/Banner2";
+import CaseStudy from "@/components/ui/sections/CaseStudy";
 import Contribution from "@/components/ui/sections/Contribution";
 import Grow from "@/components/ui/sections/Grow";
 import Industries from "@/components/ui/sections/Industries";
@@ -16,6 +17,7 @@ export default function HomePage() {
 
       <Products />
       <Industries />
+      <CaseStudy />
       <WeKnow />
       <Contribution />
       <Adventure />
