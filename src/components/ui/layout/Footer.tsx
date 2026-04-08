@@ -16,7 +16,6 @@ export default function Footer() {
           <div className="p-10 border-b md:border-b-0 md:border-r border-secondary">
             <div className="flex items-center gap-2 mb-4">
               <Image src="/logos/Logo.png" alt="Codinism Logo" width={259} height={48} />
-              <h2 className="text-2xl font-semibold">Codinism™</h2>
             </div>
 
             <p className="text-gray-400 text-sm mb-6 leading-relaxed">

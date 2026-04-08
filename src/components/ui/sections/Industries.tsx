@@ -108,7 +108,7 @@ export default function Industries() {
   };
 
   return (
-    <section className="py-16 md:py-32 bg-[#131313] border-y border-border/5">
+    <section id="industries" className="py-16 md:py-32 bg-[#131313] border-y border-border/5">
       <div className="max-w-[1400px] mx-auto px-6 md:px-12">
         {/* Header */}
         <div className="mb-12 md:mb-16">

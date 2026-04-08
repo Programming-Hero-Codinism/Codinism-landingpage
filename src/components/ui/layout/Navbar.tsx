@@ -16,7 +16,7 @@ import { Button } from "../button";
 const menu = [
   // { path: "#service", label: "Service" },
   { path: "/start-your-journey", label: "Start Working With Us" },
-  { path: "#faq", label: "Why Codinism" },
+  { path: "#industries", label: "Why Codinism" },
   // { path: "/about", label: "About" },
   { path: "#contact", label: "Contact" },
 ];

@@ -5,7 +5,7 @@ const WORLD_MAP_SRC =
   "https://lh3.googleusercontent.com/aida-public/AB6AXuBfojO8UTMDGpYe5lb1lAsXvVzeg9_rQyprN_3skcMqblfW64U54wdC5-suZPhkVOclYv0JhoZWwKAMsMe1VURJc8660AdiNoeNTjoYoVEyedDkYKY05tvXfPamQxieEMKKHqunS2bgtzsnu4RgOEB1uPg7SJtka2Si3NK3vBbBPgFz2E-J_h7uJgIFdWTEB9Wd_MDxAnMMUvl9csANg9CY5TWE0WCpO9mBfwLQpv1v62DQ4dRrH3DY9CYjk36r9ygitA_bWj5bjzE";
 
 const stats = [
-  { value: "500+", label: "PROJECTS DELIVERED" },
+  { value: "29", label: "PROJECTS DELIVERED" },
   { value: "30+", label: "COUNTRIES REACHED" },
 ] as const;
 
