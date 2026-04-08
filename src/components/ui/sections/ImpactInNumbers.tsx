@@ -1,8 +1,8 @@
 const stats = [
-  { value: "40%", label: "EFFICIENCY INCREASE" },
+  { value: "92%", label: "EFFICIENCY INCREASE" },
   { value: "0.0%", label: "DOWNTIME" },
   { value: "12x", label: "FASTER PROCESSING" },
-  { value: "$4M", label: "ANNUAL OPEX SAVINGS" },
+  { value: "150%", label: "ANNUAL OPEX SAVINGS" },
 ] as const;
 
 export default function ImpactInNumbers() {
