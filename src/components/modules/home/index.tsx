@@ -1,6 +1,7 @@
 import Adventure from "@/components/ui/sections/Adventure";
 import Banner2 from "@/components/ui/sections/Banner2";
 import CaseStudy from "@/components/ui/sections/CaseStudy";
+import ClientMessages from "@/components/ui/sections/ClientMessages";
 import Contribution from "@/components/ui/sections/Contribution";
 import Grow from "@/components/ui/sections/Grow";
 import DeliveryHighlights from "@/components/ui/sections/DeliveryHighlights";
@@ -27,6 +28,7 @@ export default function HomePage() {
       <Contribution />
       <DeliveryHighlights />
       <Adventure />
+      <ClientMessages />
       <Grow />
 
       <TechStack />
