@@ -71,7 +71,7 @@ function ProductCard({ product }: ProductCardProps) {
     >
       <div className={`p-6 md:p-10 ${isLarge ? "flex flex-col h-full" : ""}`}>
         {/* Header Section */}
-        <div className="flex justify-between items-start mb-8">
+        <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-8 gap-4">
           <div className="flex-1">
             <h3
               className={`${
@@ -87,7 +87,7 @@ function ProductCard({ product }: ProductCardProps) {
 
           {/* Badges */}
           {product.badges.length > 0 && (
-            <div className="flex flex-wrap gap-2 md:gap-3 ml-4">
+            <div className="flex flex-wrap gap-2 md:gap-3">
               {product.badges.map((badge, index) => (
                 <Badge
                   key={index}
@@ -127,7 +127,7 @@ function ProductCard({ product }: ProductCardProps) {
           <div
             className={`relative overflow-hidden ${
               isMedium ? "rounded-2xl" : "rounded-xl"
-            } border border-border/20 shadow-2xl ${
+            } border border-border/20 ${
               isMedium
                 ? "group-hover:scale-105"
                 : isLarge
@@ -161,7 +161,7 @@ function ProductCard({ product }: ProductCardProps) {
               {product.features.map((feature, index) => (
                 <div
                   key={index}
-                  className={`bg-card/90 backdrop-blur-md px-4 md:px-6 py-2 md:py-3 rounded-xl border border-[#ADFF2F]/20 shadow-xl ${
+                  className={`bg-card/90 backdrop-blur-md px-4 md:px-6 py-2 md:py-3 rounded-xl border border-[#ADFF2F]/20 ${
                     index === 1 ? "ml-8" : ""
                   }`}
                 >

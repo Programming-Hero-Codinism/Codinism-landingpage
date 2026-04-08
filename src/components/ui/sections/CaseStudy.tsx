@@ -128,14 +128,11 @@ function CaseStudyCard({ caseStudy, index }: CaseStudyCardProps) {
           transition: "transform 0.3s ease-out",
         }}
       >
-        {/* Background gradient */}
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-transparent opacity-100" />
-
         <div
           className={`relative grid grid-cols-1 ${isEven ? "lg:grid-cols-2" : "lg:grid-cols-2"} gap-0`}
         >
           {/* Image Section */}
-          <div className={`relative h-[300px] lg:h-full ${!isEven ? "lg:order-2" : ""}`}>
+          <div className={`relative h-[250px] sm:h-[300px] lg:h-full ${!isEven ? "lg:order-2" : ""}`}>
             <Image
               src={caseStudy.image}
               alt={caseStudy.imageAlt}
@@ -147,10 +144,10 @@ function CaseStudyCard({ caseStudy, index }: CaseStudyCardProps) {
 
           {/* Content Section */}
           <div
-            className={`relative flex flex-col justify-between p-8 md:p-10 lg:p-12 ${!isEven ? "lg:order-1" : ""}`}
+            className={`relative flex flex-col justify-between p-6 sm:p-8 md:p-10 lg:p-12 ${!isEven ? "lg:order-1" : ""}`}
           >
             {/* Header */}
-            <div className="space-y-4 mb-6">
+            <div className="space-y-3 sm:space-y-4 mb-6">
               {/* Tags */}
               <div className="flex flex-wrap gap-2">
                 {caseStudy.tags.map((tag, idx) => (
@@ -169,7 +166,7 @@ function CaseStudyCard({ caseStudy, index }: CaseStudyCardProps) {
               </div>
 
               {/* Title */}
-              <h3 className="text-2xl font-bold leading-tight text-white md:text-3xl">
+              <h3 className="text-xl sm:text-2xl font-bold leading-tight text-white md:text-3xl">
                 {caseStudy.title}
               </h3>
             </div>
@@ -196,7 +193,7 @@ function CaseStudyCard({ caseStudy, index }: CaseStudyCardProps) {
               <h4 className="text-sm uppercase tracking-wider text-primary font-bold">
                 Key Results
               </h4>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div className="grid grid-cols-1 gap-3">
                 {caseStudy.results.map((result, idx) => (
                   <div
                     key={idx}
